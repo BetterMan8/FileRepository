@@ -16,7 +16,7 @@ anchor:
       udp: true
     path: ./providers/
     filter: >-
-      ^(?!.*(群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author)).*$
+      ^(?!.*(群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|剩余流量|距离下次重置剩余|套餐到期|跳转域名|4条不合适线路)).*$
 
   # 节点筛选正则
   # 香港
@@ -58,7 +58,7 @@ anchor:
     tolerance: 20
     interval: 120
     url: https://cp.cloudflare.com/generate_204
-    filter: "^((?!(直连)).)*$"
+    filter: "^((?!(直连|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|剩余流量|距离下次重置剩余|套餐到期|跳转域名|4条不合适线路)).)*$"
     use:
       - NCloud
       - Self-Built
@@ -257,7 +257,7 @@ external-ui-url:  https://github.com/Zephyruso/zashboard/releases/latest/downloa
 # 面板监听端口
 external-controller:  "0.0.0.0:9090"
 # 面板访问密码
-secret: "password"
+secret: "Zuifeng@2012"
 
 # =========================================
 #                 GEO 数据库配置
